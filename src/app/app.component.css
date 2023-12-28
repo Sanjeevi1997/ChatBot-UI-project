@@ -1,0 +1,36 @@
+.pageHeading{
+    margin-left: 420px;
+    color: red;
+}
+
+.page{
+  
+    background-color: rgb(193, 179, 245);
+    height: 400px;
+    margin-top: 80px; 
+    border: 1px solid black;
+}
+
+.divHeading{
+    margin-top: 50px;
+    margin-left: 500px;
+   color: black;  
+}
+
+.inputClass{
+    margin-left: 500px;
+}
+
+
+.buttonClass{
+    margin-left: 550px;
+    color: white;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.responeClass{
+    margin-left: 500px;
+}
+
+

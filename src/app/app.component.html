@@ -1,0 +1,18 @@
+<h1 class="pageHeading"> MY SAMPLE PROJECT</h1>
+<div class="page">
+  <h3 class="divHeading"> Enter Your Detail</h3>
+  <br>
+ <div class="inputClass">
+  <label class="inputFieldClass" for="inputField">Input:</label><br>
+  <input id="inputField" [(ngModel)]="inputValue" />
+</div>
+<br>
+
+  <button class ="buttonClass" (click)="callApi()">Call API</button>
+  <br><br>
+
+<div class="responeClass">
+  <label  class ="buttondClass" for="outputArea">API Response:</label><br>
+  <textarea id="outputArea" [(ngModel)]="apiResponse" readonly></textarea>
+</div>
+</div>
